@@ -1,4 +1,7 @@
 #coding: utf-8
+from aluno import Aluno
+from docente import Docente
+
 
 class Disciplina(object):
 
@@ -15,6 +18,8 @@ class Disciplina(object):
         self.docente = []
         self._vagas = Disciplina.limite_sala
         self._alunos = {}
+        self.nota_1 = 0
+        self.nota_2 = 0
 
 
 

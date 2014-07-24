@@ -1,1 +1,2 @@
-import pyacademy
+from . import academy
+
