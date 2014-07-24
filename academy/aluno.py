@@ -12,6 +12,8 @@ class Aluno(Pessoa):
         Pessoa.__init__(self, nome, nascimento, "aluno")
         self.id = self._ID; self.__class__._ID += 1
         self.periodo = 0
-        self.disciplina = []
         self.matricula = 1000 + self.id
+        self.disciplina = {}
+        #{'id': self.id,'media': 0 }
+
         

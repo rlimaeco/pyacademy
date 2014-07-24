@@ -2,6 +2,7 @@
 
 from pessoa import Pessoa
 
+
 class Docente(Pessoa):
 
     _ID = 1
@@ -13,19 +14,9 @@ class Docente(Pessoa):
 
 
 
-    # def avaliar(self, alunos):
-    #     """
-    #     Método para avaliação de aluno
-    #     """
-    #     lista_alunos = []
 
-    #     if not isinstance(alunos, type([])):
-    #         lista_alunos.append(alunos)
-    #     else:
-    #         lista_alunos = alunos
-
-    #     for aluno in lista_alunos:
             
+
 
 
 
